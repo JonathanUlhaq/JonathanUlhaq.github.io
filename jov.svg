@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="330mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 33000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="540" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Gobold Bold">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="v" horiz-adv-x="540"><path d="M376.002 -9.83854l-211.003 0 -98.9996 552.836 -46.4998 307.664 164.173 0 86.3264 -674.324 86.9997 674.324 164.007 0 -46.3345 -308.656 -98.6689 -551.844z"/></glyph>
+   <glyph unicode="o" horiz-adv-x="528"><path d="M475.176 160.661c0,-123.646 -70.3565,-185.675 -211.006,-185.992 -140.333,0 -210.5,61.9973 -210.5,185.992l0 515.673c0,123.678 70.1666,185.485 210.5,185.485 140.65,0 211.006,-61.8074 211.006,-185.485l0 -515.673zm-162.688 515.673c0,32.1702 -15.9901,48.5086 -47.812,48.8253l-1.01324 0c-31.5053,0 -47.3371,-16.3384 -47.3371,-48.8253l0 -515.673c0,-32.1702 16.0218,-48.3187 47.8437,-48.3187 32.1702,0 48.3187,16.1484 48.3187,48.3187l0 515.673z"/></glyph>
+   <glyph unicode="J" horiz-adv-x="499"><path d="M14.6692 252.495l162.661 0 0 -66.4958c0,-36.6613 16.0039,-55.1691 48.3423,-55.1691 31.8306,0 47.8226,18.5078 47.8226,55.1691l0 781.839 162.507 0 0 -781.839c0,-140.834 -70.169,-211.334 -210.33,-211.334 -140.669,0.330707 -211.003,70.6651 -211.003,211.334l0 66.4958z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Gobold Bold";src:url("#FontID0") format(svg)}
+    .fil0 {fill:#815BB3}
+    .fnt1 {font-weight:normal;font-size:315.82px;font-family:'Gobold Bold'}
+    .fnt0 {font-weight:normal;font-size:846.67px;font-family:'Gobold Bold'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_177107392">
+   <text x="10022" y="17039"  class="fil0 fnt0">J</text>
+   <text x="10399" y="16212"  class="fil0 fnt1">o</text>
+   <text x="10525" y="16950"  class="fil0 fnt0">v</text>
+  </g>
+ </g>
+</svg>

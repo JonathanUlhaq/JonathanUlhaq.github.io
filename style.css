@@ -1,0 +1,57 @@
+main {
+  padding-top: 5px;
+  background-color: #f8f9fa;
+  padding-bottom: 10px;
+}
+
+#kiri {
+  margin-top: 1%;
+}
+
+#kanan {
+  margin-bottom: 2%;
+}
+
+body {
+  animation: fadeInAnimation ease 3s;
+  padding-top: 40px;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#aboutme {
+  padding-top: 20px;
+}
+
+.tulisan {
+  text-align: justify;
+  margin: 25px 50px 75px;
+  padding-right: 2vw;
+  padding-top: 40px;
+}
+
+#portfolios {
+  padding-top: 20px;
+  background-color: #f8f9fa;
+}
+
+#kartugam:hover {
+  border: #7c45d4 solid 5px;
+
+  bottom: 20px;
+  transition: 1s;
+}
+
+#kartugam {
+  bottom: 0px;
+  transition: 1s;
+}

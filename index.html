@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ff677759a9.js" crossorigin="anonymous"></script>
+    <title>PortFolio Jovian</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="jov.png" alt="" width="30" height="30">
+                  </a>
+              <a class="navbar-brand" href="#aboutme">About me</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-selected="true" href="#portfolios">Portfolio</a>
+                  </li>
+                                 </ul>
+               
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="jumbotron jumbotron-fluid">
+            <div  class="container">
+                <div class="row">
+                    <div id="kiri" class="col-sm-6">
+                        <h1 class="display-4">Hai,<br> Iam Jovian Nathaniel Ulhaq</h1>
+                        <p class="lead">D3 Informatics Engineering student | Backend Developer</p>
+                        <a href="#portfolios" class="btn btn-primary">Portfolio</a>
+                      </div>
+                      <div id="kanan" class="col-sm-6">
+                          <img width="85%" src = "27.svg" class="img-fluid" alt="Backend SVG"/>
+                      </div>
+                </div>
+            </div>
+          </div>
+          
+
+    </main>
+
+ <section id="aboutme" class="mt-2">
+    <div class="container">
+      <h3  class="display-6 text-center">About me</h3>
+      <hr  style="width:30%;margin-left: 35%;">
+        <div class="row">
+  
+                 <div class="col-md-6">
+                
+            <img id="aboutmes" width="100%" src = "12.svg"  class="img-fluid" alt="Backend SVG"/>
+           </div>
+
+           <div class="col-md-6">
+         <div class="tulisan">
+          <p class="lead">Hello, my name is Jovan Nathaniel Ulhaq, a D3 student in Informatics Engineering at 
+            UNS, I am interested in website programming, more specifically on the backend. In backend programming I 
+            often use PHP (CI 3 and 4), HTML, CSS and a little JavaScript. Apart from these programming skills, 
+            I also have the ability to work in a team or under pressure
+             and I am a person who is responsive and very enthusiastic about learning new things.
+          </p>
+         </div>
+           </div>
+        </div>
+    </div>
+
+ </section>
+
+ <section id="portfolios">
+
+  <div class="container">
+    <h3  class="display-6 text-center">Portfolio</h3>
+    <hr  style="width:30%;margin-left: 35%;">
+    <div class="row">
+      <div class="col-sm-6">
+        <a data-bs-toggle="modal" data-bs-target="#RumahSakit"  href="#">
+       
+          <div   class="card-body">
+            <img id="kartugam" height="50%" src="Rumah Sakit.png" class="img-thumbnail" alt="Rumah Sakit">
+          </div>
+   
+      </a>
+
+
+<!-- Modal -->
+<div class="modal fade" id="RumahSakit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">SIRUS ( Sistem Informasi Rumah Sakit )</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div   class="card-body">
+          <img id="kartugam" height="50%" src="Rumah Sakit.png" class="img-thumbnail" alt="Rumah Sakit">
+        </div>
+        <p style="  text-align: justify;">Website Sistem Informasi rumah sakit yang memiliki fitur manajemen antrian secara online,
+           perhitungan statistika rumah sakit secara online, pengecekan jadwal dokter jaga. Website ini dibuat dengan menggunakan <strong>CodeIgniter 4</strong></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="https://github.com/JonathanUlhaq/rumah_sakit/tree/master" class="btn btn-primary"><i style="margin-right: 10px;" class="fab fa-github"></i>Github</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class="col-sm-6">
+        <a  data-bs-toggle="modal" data-bs-target="#Presensi"  href="#">
+          <div class="card-body">
+            <img  id="kartugam" height="50%" src="Presensi.png" class="img-thumbnail" alt="Presensi">
+          </div>
+        </a>
+      </div>
+
+      <div class="modal fade" id="Presensi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">E - Presensi</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div   class="card-body">
+                <img id="kartugam" height="50%" src="Presensi.png" class="img-thumbnail" alt="Presensi">
+              </div>
+              <p style="  text-align: justify;">Website presensi kuliah secara online yang dilengkapi dengan captcha pada laman loginnya
+                dan digital signature pada proses presensinya. Website ini dibuat dengan <strong>CodeIgniter 4</strong></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a href="https://github.com/JonathanUlhaq/presensi_ci4/tree/master" class="btn btn-primary"><i style="margin-right: 10px;" class="fab fa-github"></i>Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-6">
+        <a  data-bs-toggle="modal" data-bs-target="#Perpustakaan"  href="#">
+          <div  class="card-body">
+            <img  id="kartugam"height="50%" src="Perpustakaan.png" class="img-thumbnail" alt="Perpustakaan">
+          </div>
+        </a>
+      </div>
+
+
+      <div class="modal fade" id="Perpustakaan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Perpustakaan Online</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div   class="card-body">
+                <img id="kartugam" height="50%" src="Perpustakaan.png" class="img-thumbnail" alt="Perpustakaan">
+              </div>
+              <p style="  text-align: justify;">Website perpustakaan online untuk memudahkan proses peminjaman dan manajemen buku
+                pada perpustakaan. Website ini dibuat dengan <strong>CodeIgniter 4</strong></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a href="https://github.com/JonathanUlhaq/Perpustakaan-CI4" class="btn btn-primary"><i style="margin-right: 10px;" class="fab fa-github"></i>Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-6">
+        <a  data-bs-toggle="modal" data-bs-target="#Olshop"  href="#">
+          <div class="card-body">
+            <img id="kartugam" height="50%" src="Olshop.png" class="img-thumbnail" alt="Olshop">
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="modal fade" id="Olshop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Perpustakaan Online</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div   class="card-body">
+              <img id="kartugam" height="50%" src="Olshop.png" class="img-thumbnail" alt="Olshop">
+            </div>
+            <p style="  text-align: justify;">Website online shop sederhana untuk jual beli kebutuhan sehari - hari yang dilengkapi dengan
+              proses transaksional. <strong>CodeIgniter 3</strong></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="https://github.com/JonathanUlhaq/Olshop-CI-3" class="btn btn-primary"><i style="margin-right: 10px;" class="fab fa-github"></i>Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+ </section>
+
+ <footer style="margin-top: 10px;">
+   <div class="container">
+     <p class="lead">Jovian Nathaniel Ulhaq</p>
+   </div>
+ </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
