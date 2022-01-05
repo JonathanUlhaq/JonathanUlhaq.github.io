@@ -5,7 +5,7 @@ main {
 }
 
 #kiri {
-  margin-top: 1%;
+  margin-top: 4%;
 }
 
 #kanan {
@@ -32,6 +32,12 @@ body {
   padding-top: 20px;
 }
 
+#skill {
+  padding-top: 20px;
+
+  background-color: #f8f9fa;
+}
+
 .tulisan {
   text-align: justify;
   margin: 25px 50px 75px;
@@ -41,7 +47,7 @@ body {
 
 #portfolios {
   padding-top: 20px;
-  background-color: #f8f9fa;
+  background-color: #fff;
 }
 
 #kartugam:hover {
@@ -53,5 +59,19 @@ body {
 
 #kartugam {
   bottom: 0px;
+  transition: 1s;
+}
+
+#skiles:hover {
+  background-color: #f8f9fa;
+  width: 80%;
+  border-radius: 10px;
+  padding-top: 20px;
+  transition: 1s;
+}
+
+#skiles {
+  bottom: 0px;
+  width: 80%;
   transition: 1s;
 }
