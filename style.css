@@ -1,6 +1,6 @@
 main {
   padding-top: 5px;
-  background-color: #f8f9fa;
+  background-color: #fff;
   padding-bottom: 10px;
 }
 
@@ -29,13 +29,12 @@ body {
 }
 
 #aboutme {
-  padding-top: 20px;
+  padding-top: 50px;
+  background-color: #f8f9fa;
 }
 
 #skill {
-  padding-top: 20px;
-
-  background-color: #f8f9fa;
+  padding-top: 50px;
 }
 
 .tulisan {
@@ -47,7 +46,7 @@ body {
 
 #portfolios {
   padding-top: 20px;
-  background-color: #fff;
+  background-color: #f8f9fa;
 }
 
 #kartugam:hover {
@@ -64,7 +63,7 @@ body {
 
 #skiles:hover {
   background-color: #f8f9fa;
-  width: 80%;
+
   border-radius: 10px;
   padding-top: 20px;
   transition: 1s;
@@ -72,6 +71,63 @@ body {
 
 #skiles {
   bottom: 0px;
-  width: 80%;
+
+  transition: 1s;
+}
+
+.progress {
+  width: 50%;
+  margin-left: 25%;
+}
+
+#css {
+  width: 20%;
+  background-color: #e232b0;
+  color: #e232b0;
+  transition: 1s;
+}
+
+#css:hover {
+  background-color: #75195b;
+  color: #fff;
+  transition: 1s;
+}
+
+#javascript {
+  width: 15%;
+  background-color: #ff8a5f;
+  color: #ff8a5f;
+  transition: 1s;
+}
+
+#javascript:hover {
+  background-color: rgb(90, 14, 69);
+  color: #fff;
+  transition: 1s;
+}
+
+#html {
+  width: 30%;
+  background-color: #ff5084;
+  color: #ff5084;
+  transition: 1s;
+}
+
+#html:hover {
+  background-color: #94173c;
+  color: #fff;
+  transition: 1s;
+}
+
+#php {
+  width: 40%;
+  background-color: #7c45d4;
+  color: #7c45d4;
+  transition: 1s;
+}
+
+#php:hover {
+  background-color: #331268;
+  color: #fff;
   transition: 1s;
 }
