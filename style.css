@@ -35,6 +35,7 @@ body {
 
 #skill {
   padding-top: 50px;
+  margin-bottom: 20px;
 }
 
 .tulisan {
@@ -46,7 +47,6 @@ body {
 
 #portfolios {
   padding-top: 20px;
-  background-color: #f8f9fa;
 }
 
 #kartugam:hover {
@@ -77,11 +77,10 @@ body {
 
 .progress {
   width: 50%;
-  margin-left: 25%;
 }
 
 #css {
-  width: 20%;
+  width: 80%;
   background-color: #e232b0;
   color: #e232b0;
   transition: 1s;
@@ -107,7 +106,7 @@ body {
 }
 
 #html {
-  width: 30%;
+  width: 100%;
   background-color: #ff5084;
   color: #ff5084;
   transition: 1s;
@@ -118,9 +117,13 @@ body {
   color: #fff;
   transition: 1s;
 }
+#interests {
+  margin-top: 50px;
+  background-color: #f8f9fa;
+}
 
 #php {
-  width: 40%;
+  width: 90%;
   background-color: #7c45d4;
   color: #7c45d4;
   transition: 1s;
@@ -128,6 +131,31 @@ body {
 
 #php:hover {
   background-color: #331268;
+  color: #fff;
+  transition: 1s;
+}
+
+#sql {
+  width: 80%;
+  background-color: #006cf4;
+  color: #006cf4;
+  transition: 1s;
+}
+
+#sql:hover {
+  background-color: #134077;
+  color: #fff;
+  transition: 1s;
+}
+#ui {
+  width: 75%;
+  background-color: #00a387;
+  color: #00a387;
+  transition: 1s;
+}
+
+#ui:hover {
+  background-color: #065c4d;
   color: #fff;
   transition: 1s;
 }
